@@ -1,0 +1,169 @@
+/* General Body Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #343a40;
+    color: #fff;
+}
+
+nav .nav-left {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-left li {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+nav .logo {
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav ul li {
+    padding: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section Styles */
+header {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #343a40;
+}
+
+header p {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+/* Grid Styles */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Figure and Image Styles */
+figure {
+    text-align: center;
+}
+
+figure img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+figcaption {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+}
+
+/* Subscribe Section Styles */
+section[aria-label="Subscribe example"] {
+    background-color: #343a40;
+    padding: 3rem 0;
+}
+
+section[aria-label="Subscribe example"] h2, section[aria-label="Subscribe example"] h3 {
+    color: #fff;
+    text-align: center;
+}
+
+form.grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+form input {
+    padding: 0.75rem;
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 0.75rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #343a40;
+    color: white;
+}
+
+footer a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for form elements */
+form input[type="text"], form label, form input[type="submit"] {
+	margin: 10px 0; 
+}
+
+/* Styles for error messages */
+.validationError {
+	color: red;
+	font-weight: bold;
+}
+
